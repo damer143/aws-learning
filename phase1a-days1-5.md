@@ -103,6 +103,8 @@ sudo dnf update -y
 ## Install Node.js
 
 ```bash
+curl -fsSL https://rpm.nodesource.com/setup_20.x | sudo bash -
+sudo dnf remove nodejs -y
 sudo dnf install nodejs -y
 ```
 
